@@ -1,6 +1,13 @@
 [![linuxserver.io](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_medium.png)](https://linuxserver.io)
 
-The [LinuxServer.io](https://linuxserver.io) team brings you another container release featuring :-
+[![Blog](https://img.shields.io/static/v1.svg?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&label=linuxserver.io&message=Blog)](https://blog.linuxserver.io "all the things you can do with our containers including How-To guides, opinions and much more!")
+[![Discord](https://img.shields.io/discord/354974912613449730.svg?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&label=Discord&logo=discord)](https://discord.gg/YWrKVTn "realtime support / chat with the community and the team.")
+[![Discourse](https://img.shields.io/discourse/https/discourse.linuxserver.io/topics.svg?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&logo=discourse)](https://discourse.linuxserver.io "post on our community forum.")
+[![Fleet](https://img.shields.io/static/v1.svg?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&label=linuxserver.io&message=Fleet)](https://fleet.linuxserver.io "an online web interface which displays all of our maintained images.")
+[![GitHub](https://img.shields.io/static/v1.svg?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&label=linuxserver.io&message=GitHub&logo=github)](https://github.com/linuxserver "view the source for all of our repositories.")
+[![Open Collective](https://img.shields.io/opencollective/all/linuxserver.svg?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&label=Supporters&logo=open%20collective)](https://opencollective.com/linuxserver "please consider helping us by either donating or contributing to our budget")
+
+The [LinuxServer.io](https://linuxserver.io) team brings you another container release featuring:
 
  * regular and timely application updates
  * easy user mappings (PGID, PUID)
@@ -9,18 +16,24 @@ The [LinuxServer.io](https://linuxserver.io) team brings you another container r
  * regular security updates
 
 Find us at:
-* [Discord](https://discord.gg/YWrKVTn) - realtime support / chat with the community and the team.
-* [IRC](https://irc.linuxserver.io) - on freenode at `#linuxserver.io`. Our primary support channel is Discord.
 * [Blog](https://blog.linuxserver.io) - all the things you can do with our containers including How-To guides, opinions and much more!
+* [Discord](https://discord.gg/YWrKVTn) - realtime support / chat with the community and the team.
+* [Discourse](https://discourse.linuxserver.io) - post on our community forum.
+* [Fleet](https://fleet.linuxserver.io) - an online web interface which displays all of our maintained images.
+* [GitHub](https://github.com/linuxserver) - view the source for all of our repositories.
+* [Open Collective](https://opencollective.com/linuxserver) - please consider helping us by either donating or contributing to our budget
 
 # [linuxserver/plex](https://github.com/linuxserver/docker-plex)
-[![](https://img.shields.io/discord/354974912613449730.svg?logo=discord&label=LSIO%20Discord&style=flat-square)](https://discord.gg/YWrKVTn)
-[![](https://images.microbadger.com/badges/version/linuxserver/plex.svg)](https://microbadger.com/images/linuxserver/plex "Get your own version badge on microbadger.com")
-[![](https://images.microbadger.com/badges/image/linuxserver/plex.svg)](https://microbadger.com/images/linuxserver/plex "Get your own version badge on microbadger.com")
-![Docker Pulls](https://img.shields.io/docker/pulls/linuxserver/plex.svg)
-![Docker Stars](https://img.shields.io/docker/stars/linuxserver/plex.svg)
-[![Build Status](https://ci.linuxserver.io/buildStatus/icon?job=Docker-Pipeline-Builders/docker-plex/master)](https://ci.linuxserver.io/job/Docker-Pipeline-Builders/job/docker-plex/job/master/)
-[![](https://lsio-ci.ams3.digitaloceanspaces.com/linuxserver/plex/latest/badge.svg)](https://lsio-ci.ams3.digitaloceanspaces.com/linuxserver/plex/latest/index.html)
+
+[![GitHub Stars](https://img.shields.io/github/stars/linuxserver/docker-plex.svg?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&logo=github)](https://github.com/linuxserver/docker-plex)
+[![GitHub Release](https://img.shields.io/github/release/linuxserver/docker-plex.svg?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&logo=github)](https://github.com/linuxserver/docker-plex/releases)
+[![GitHub Package Repository](https://img.shields.io/static/v1.svg?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&label=linuxserver.io&message=GitHub%20Package&logo=github)](https://github.com/linuxserver/docker-plex/packages)
+[![GitLab Container Registry](https://img.shields.io/static/v1.svg?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&label=linuxserver.io&message=GitLab%20Registry&logo=gitlab)](https://gitlab.com/Linuxserver.io/docker-plex/container_registry)
+[![MicroBadger Layers](https://img.shields.io/microbadger/layers/linuxserver/plex.svg?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge)](https://microbadger.com/images/linuxserver/plex "Get your own version badge on microbadger.com")
+[![Docker Pulls](https://img.shields.io/docker/pulls/linuxserver/plex.svg?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&label=pulls&logo=docker)](https://hub.docker.com/r/linuxserver/plex)
+[![Docker Stars](https://img.shields.io/docker/stars/linuxserver/plex.svg?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&label=stars&logo=docker)](https://hub.docker.com/r/linuxserver/plex)
+[![Jenkins Build](https://img.shields.io/jenkins/build?labelColor=555555&logoColor=ffffff&style=for-the-badge&jobUrl=https%3A%2F%2Fci.linuxserver.io%2Fjob%2FDocker-Pipeline-Builders%2Fjob%2Fdocker-plex%2Fjob%2Fmaster%2F&logo=jenkins)](https://ci.linuxserver.io/job/Docker-Pipeline-Builders/job/docker-plex/job/master/)
+[![LSIO CI](https://img.shields.io/badge/dynamic/yaml?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&label=CI&query=CI&url=https%3A%2F%2Flsio-ci.ams3.digitaloceanspaces.com%2Flinuxserver%2Fplex%2Flatest%2Fci-status.yml)](https://lsio-ci.ams3.digitaloceanspaces.com/linuxserver/plex/latest/index.html)
 
 [Plex](https://plex.tv) organizes video, music and photos from personal media libraries and streams them to smart TVs, streaming boxes and mobile devices. This container is packaged as a standalone Plex Media Server. has always been a top priority. Straightforward design and bulk actions mean getting things done faster.
 
@@ -28,7 +41,7 @@ Find us at:
 
 ## Supported Architectures
 
-Our images support multiple architectures such as `x86-64`, `arm64` and `armhf`. We utilise the docker manifest for multi-platform awareness. More information is available from docker [here](https://github.com/docker/distribution/blob/master/docs/spec/manifest-v2-2.md#manifest-list) and our announcement [here](https://blog.linuxserver.io/2019/02/21/the-lsio-pipeline-project/). 
+Our images support multiple architectures such as `x86-64`, `arm64` and `armhf`. We utilise the docker manifest for multi-platform awareness. More information is available from docker [here](https://github.com/docker/distribution/blob/master/docs/spec/manifest-v2-2.md#manifest-list) and our announcement [here](https://blog.linuxserver.io/2019/02/21/the-lsio-pipeline-project/).
 
 Simply pulling `linuxserver/plex` should retrieve the correct image for your arch, but you can also pull specific arch images via tags.
 
@@ -54,10 +67,11 @@ docker create \
   -e PUID=1000 \
   -e PGID=1000 \
   -e VERSION=docker \
-  -v </path/to/library>:/config \
-  -v <path/to/tvseries>:/data/tvshows \
-  -v </path/to/movies>:/data/movies \
-  -v </path for transcoding>:/transcode \
+  -e UMASK_SET=022 `#optional` \
+  -e PLEX_CLAIM= `#optional` \
+  -v /path/to/library:/config \
+  -v /path/to/tvseries:/tv \
+  -v /path/to/movies:/movies \
   --restart unless-stopped \
   linuxserver/plex
 ```
@@ -69,7 +83,7 @@ Compatible with docker-compose v2 schemas.
 
 ```
 ---
-version: "2"
+version: "2.1"
 services:
   plex:
     image: linuxserver/plex
@@ -79,11 +93,12 @@ services:
       - PUID=1000
       - PGID=1000
       - VERSION=docker
+      - UMASK_SET=022 #optional
+      - PLEX_CLAIM= #optional
     volumes:
-      - </path/to/library>:/config
-      - <path/to/tvseries>:/data/tvshows
-      - </path/to/movies>:/data/movies
-      - </path for transcoding>:/transcode
+      - /path/to/library:/config
+      - /path/to/tvseries:/tv
+      - /path/to/movies:/movies
     restart: unless-stopped
 ```
 
@@ -97,30 +112,56 @@ Container images are configured using parameters passed at runtime (such as thos
 | `-e PUID=1000` | for UserID - see below for explanation |
 | `-e PGID=1000` | for GroupID - see below for explanation |
 | `-e VERSION=docker` | Set whether to update plex or not - see Application Setup section. |
+| `-e UMASK_SET=022` | control permissions of files and directories created by Plex |
+| `-e PLEX_CLAIM=` | Optionally you can obtain a claim token from https://plex.tv/claim and input here. Keep in mind that the claim tokens expire within 4 minutes. |
 | `-v /config` | Plex library location. *This can grow very large, 50gb+ is likely for a large collection.* |
-| `-v /data/tvshows` | Media goes here. Add as many as needed e.g. `/data/movies`, `/data/tv`, etc. |
-| `-v /data/movies` | Media goes here. Add as many as needed e.g. `/data/movies`, `/data/tv`, etc. |
-| `-v /transcode` | Path for transcoding folder, *optional*. |
+| `-v /tv` | Media goes here. Add as many as needed e.g. `/movies`, `/tv`, etc. |
+| `-v /movies` | Media goes here. Add as many as needed e.g. `/movies`, `/tv`, etc. |
+
+## Environment variables from files (Docker secrets)
+
+You can set any environment variable from a file by using a special prepend `FILE__`.
+
+As an example:
+
+```
+-e FILE__PASSWORD=/run/secrets/mysecretpassword
+```
+
+Will set the environment variable `PASSWORD` based on the contents of the `/run/secrets/mysecretpassword` file.
+
+## Umask for running applications
+
+For all of our images we provide the ability to override the default umask settings for services started within the containers using the optional `-e UMASK=022` setting.
+Keep in mind umask is not chmod it subtracts from permissions based on it's value it does not add. Please read up [here](https://en.wikipedia.org/wiki/Umask) before asking for support.
 
 ## Optional Parameters
 
-*Special note* - If you'd like to run Plex without requiring `--net=host` (`NOT recommended`) then you will need the following ports in your `docker create` command:
+If you want to run the container in bridge network mode (instead of the recommended host network mode) you will need to specify ports.
+The [official documentation for ports](https://support.plex.tv/articles/201543147-what-network-ports-do-i-need-to-allow-through-my-firewall/) lists 32400 as the only required port.
+The rest of the ports are optionally used for specific purposes listed in the documentation.
+If you have not already claimed your server (first time setup) you need to set `PLEX_CLAIM` to claim a server set up with bridge networking.
 
 ```
   -p 32400:32400 \
-  -p 32400:32400/udp \
-  -p 32469:32469 \
-  -p 32469:32469/udp \
+  -p 1900:1900/udp \
+  -p 3005:3005 \
   -p 5353:5353/udp \
-  -p 1900:1900/udp
+  -p 8324:8324 \
+  -p 32410:32410/udp \
+  -p 32412:32412/udp \
+  -p 32413:32413/udp \
+  -p 32414:32414/udp \
+  -p 32469:32469
+
 ```
 
 The application accepts a series of environment variables to further customize itself on boot:
 
 | Parameter | Function |
 | :---: | --- |
-| `-v /transcode` | Path for transcoding folder|
 | `--device=/dev/dri:/dev/dri` | Add this option to your run command if you plan on using Quicksync hardware acceleration - see Application Setup section.|
+| `--device=/dev/dvb:/dev/dvb` | Add this option to your run command if you plan on using dvb devices.|
 
 
 ## User / Group Identifiers
@@ -155,11 +196,17 @@ Valid settings for VERSION are:-
 + **`public`**: will update plexpass users to the latest public version, useful for plexpass users that don't want to be on the bleeding edge but still want the latest public updates.
 + **`<specific-version>`**: will select a specific version (eg 0.9.12.4.1192-9a47d21) of plex to install, note you cannot use this to access plexpass versions if you do not have plexpass.
 
+## Hardware Acceleration
+
+### Intel
+
 Hardware acceleration users for Intel Quicksync will need to mount their /dev/dri video device inside of the container by passing the following command when running or creating the container:
 
 ```--device=/dev/dri:/dev/dri```
 
 We will automatically ensure the abc user inside of the container has the proper permissions to access this device.
+
+### Nvidia
 
 Hardware acceleration users for Nvidia will need to install the container runtime provided by Nvidia on their host, instructions can be found here:
 
@@ -168,22 +215,27 @@ https://github.com/NVIDIA/nvidia-docker
 We automatically add the necessary environment variable that will utilise all the features available on a GPU on the host. Once nvidia-docker is installed on your host you will need to re/create the docker container with the nvidia container runtime `--runtime=nvidia` and add an environment variable `-e NVIDIA_VISIBLE_DEVICES=all` (can also be set to a specific gpu's UUID, this can be discovered by running `nvidia-smi --query-gpu=gpu_name,gpu_uuid --format=csv` ). NVIDIA automatically mounts the GPU and drivers from your host into the plex docker.
 
 
+## Docker Mods
+[![Docker Mods](https://img.shields.io/badge/dynamic/yaml?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&label=mods&query=%24.mods%5B%27plex%27%5D.mod_count&url=https%3A%2F%2Fraw.githubusercontent.com%2Flinuxserver%2Fdocker-mods%2Fmaster%2Fmod-list.yml)](https://mods.linuxserver.io/?mod=plex "view available mods for this container.")
+
+We publish various [Docker Mods](https://github.com/linuxserver/docker-mods) to enable additional functionality within the containers. The list of Mods available for this image (if any) can be accessed via the dynamic badge above.
+
 
 ## Support Info
 
 * Shell access whilst the container is running: `docker exec -it plex /bin/bash`
 * To monitor the logs of the container in realtime: `docker logs -f plex`
-* container version number 
+* container version number
   * `docker inspect -f '{{ index .Config.Labels "build_version" }}' plex`
 * image version number
   * `docker inspect -f '{{ index .Config.Labels "build_version" }}' linuxserver/plex`
 
 ## Updating Info
 
-Most of our images are static, versioned, and require an image update and container recreation to update the app inside. With some exceptions (ie. nextcloud, plex), we do not recommend or support updating apps inside the container. Please consult the [Application Setup](#application-setup) section above to see if it is recommended for the image.  
-  
-Below are the instructions for updating containers:  
-  
+Most of our images are static, versioned, and require an image update and container recreation to update the app inside. With some exceptions (ie. nextcloud, plex), we do not recommend or support updating apps inside the container. Please consult the [Application Setup](#application-setup) section above to see if it is recommended for the image.
+
+Below are the instructions for updating containers:
+
 ### Via Docker Run/Create
 * Update the image: `docker pull linuxserver/plex`
 * Stop the running container: `docker stop plex`
@@ -207,11 +259,14 @@ Below are the instructions for updating containers:
   containrrr/watchtower \
   --run-once plex
   ```
+
+**Note:** We do not endorse the use of Watchtower as a solution to automated updates of existing Docker containers. In fact we generally discourage automated updates. However, this is a useful tool for one-time manual updates of containers where you have forgotten the original parameters. In the long term, we highly recommend using Docker Compose.
+
 * You can also remove the old dangling images: `docker image prune`
 
 ## Building locally
 
-If you want to make local modifications to these images for development purposes or just to customize the logic: 
+If you want to make local modifications to these images for development purposes or just to customize the logic:
 ```
 git clone https://github.com/linuxserver/docker-plex.git
 cd docker-plex
@@ -230,6 +285,11 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **03.05.20:** - Update exposed ports and example docs for bridge mode.
+* **23.03.20:** - Remove udev hack (no longer needed), suppress uuid error in log during first start.
+* **04.12.19:** - Add variable for setting PLEX_CLAIM. Remove `/transcode` volume mapping as it is now set via plex gui and defaults to a location under `/config`.
+* **06.08.19:** - Add variable for setting UMASK.
+* **10.07.19:** - Fix permissions for tuner (/dev/dvb) devices.
 * **20.05.19:** - Bugfix do not allow Root group for Intel QuickSync ownership rules.
 * **23.03.19:** - Switching to new Base images, shift to arm32v7 tag.
 * **22.03.19:** - Fix update logic for `VERSION=public`.
