@@ -56,3 +56,5 @@ EXPOSE 32400/tcp 1900/udp 3005/tcp 5353/udp 8324/tcp 32410/udp 32412/udp 32413/u
 VOLUME /config /transcode
 
 HEALTHCHECK CMD curl --fail http://localhost:32400/web/index.html || exit 1
+
+COPY nvidia-patch/patch.sh /usr/local/sbin
