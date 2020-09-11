@@ -57,4 +57,3 @@ VOLUME /config /transcode
 
 HEALTHCHECK CMD curl --fail http://localhost:32400/web/index.html || exit 1
 
-COPY nvidia-patch/patch.sh /usr/local/sbin
